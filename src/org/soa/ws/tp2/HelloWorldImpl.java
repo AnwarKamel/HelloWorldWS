@@ -3,7 +3,7 @@ package org.soa.ws.tp2;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
-@WebService
+@WebService(endpointInterface="org.soa.ws.tp2.HelloWorld")
 public class HelloWorldImpl implements HelloWorld{
 
 	@Override
